@@ -4,8 +4,12 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="text-center">
-     
-      <h2 className="font-bold text-xl">FRESH | HALAL | TASTY </h2>
+     <Image 
+     src="/biryani.png"
+     width={500}
+     height={50}
+     />
+      <h2 className="font-bold text-xl"></h2>
     </main>
   );
 }
